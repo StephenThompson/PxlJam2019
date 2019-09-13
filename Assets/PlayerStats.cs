@@ -16,7 +16,7 @@ public class PlayerStats : MonoBehaviour {
 		time -= Time.deltaTime;
 
 		if (Input.GetButtonDown ("UseTime")) {
-			time -= 1;
+			time -= 10;
 			money += 10;
 		}
 
